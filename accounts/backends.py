@@ -16,7 +16,6 @@ class EmailAuth:
         except User.DoesNotExit:
             return None
 
-
     def get_user(self, user_id):
         """
         Used by the Django Authentication system to retrieve
