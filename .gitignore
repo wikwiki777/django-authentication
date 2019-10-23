@@ -1,0 +1,5 @@
+/django_auth/__pycache__
+/bin
+/include
+/lib
+db.sqlite3
