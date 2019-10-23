@@ -1,4 +1,6 @@
 /django_auth/__pycache__
+/accounts/migrations/__pycache__
+/accounts/__pycache__
 /bin
 /include
 /lib
