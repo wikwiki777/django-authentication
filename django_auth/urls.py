@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^$', views.index, name="index"),
     url(r'^accounts/logout$', views.logout, name="logout"),
     url(r'^accounts/login$', views.login, name="login"),
-    url(r'^accounts/register$', views.registration, name="registration")
+    url(r'^accounts/register$', views.registration, name="registration"),
+    url(r'^accounts/profile$', views.user_profile, name="profile")
 ]
