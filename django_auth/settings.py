@@ -123,4 +123,12 @@ STATIC_URL = '/static/'
 # Used for messages
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 
+# Used for sending email from backend
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+# Use these settings for sending real email
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = ""
+# EMAIL_HOST_PASSWORD = ""
+# EMAIL_POST = 587
