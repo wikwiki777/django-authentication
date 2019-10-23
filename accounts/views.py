@@ -43,4 +43,6 @@ def login(request):
 
 def registration(request):
     """Render the registration page"""
-    return render(request, 'registration.html')
+    registration_form = forms.UserRegistrationForm()
+    return render(request, 'registration.html', {
+                  "registration_form": registration_form})
